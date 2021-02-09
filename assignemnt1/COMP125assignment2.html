@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Hyekyeong Park (301148613) | Winter 2021 -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Draw a Table</title>
+        <link rel="icon" type="images/png" href="img/table.png">
+        <link rel="stylesheet" href="assignment2.css">
+    </head>
+
+<body>
+<div id="all_page">
+
+<div id="container">
+    <h2>Draw your own Table!</h2>
+
+    <label for="rows">Set Rows: </label>
+    <input type="number" id="rows" class="form-control form-control-sm" 
+    min="1" value="0"><br />
+
+<label for="cols">Set Columns: </label>
+<input type="number" id="cols" class="form-control form-control-sm"
+min="1" value="0"><br />
+
+<button type="button" id="btn" class="btn btn-outline-warning"
+onclick="generateTable()">Click Here</button>
+
+<div id="tableDiv"></div>
+</div>
+</div>
+
+<footer>&copy;&nbsp;All rights reserved || Hyekyeong Park (301148613) || Winter 2021</footer>
+<script src="assignment2.js"></script>
+    </body>
+</html>

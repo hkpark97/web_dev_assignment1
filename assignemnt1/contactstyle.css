@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#logo-image {
+    text-align: center; 
+}
+
+#header{
+    color: #243AAA;
+    font-size: 20px;
+    width: 100%;
+    background-color: #243AAA;
+
+}
+
+#horizontal{
+    width: 980px;
+    margin: 0px auto;
+    height: 50px;
+    background-color: inherit;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    list-style: none;
+        background-color: inherit;
+
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    background-color: inherit;
+}
+
+#menu a:hover, #dropdownContent a:hover{
+    color: aliceblue;
+    background-color: inherit;
+
+}
+
+#menu li{
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: inherit;
+
+}
+
+#menu li:hover{
+    background-color: #66cdaa;
+        color: black;
+
+}
+
+#dropdownContent {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li:hover  
+
+
+#dropdownContent
+{
+    display: block;
+    background-color: #66cdaa;
+
+}
+
+#dropdownContent li{
+    background-color: #8fe9a3;
+    clear: both;
+    list-style: none;
+    z-index: 1;
+}
+
+#mainBody{
+    background-color: #E5F2FC;
+    color: midnightblue;
+    width: 980px;
+    margin: 0px auto;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+
+#mainBody h1, #mainBody p{
+    margin: 10px;
+}
+
+hr{
+    margin: 10px;
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+footer #left{
+    float: left;
+}
+
+footer #right{
+    float: right;
+}
+
+.left{
+    width: 50%;
+    text-align: right;
+    float: left;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.right{
+    width: 50%;
+    text-align: left;
+    float: right;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+fieldset{
+    margin: 25px;
+    padding: 15px;
+    
+}
+
+#buttons{
+    overflow: auto;
+    padding: 10px
+}

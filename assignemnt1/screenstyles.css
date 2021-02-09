@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#logo-image {
+    text-align: center;
+    
+}
+
+#header{
+    color: #243AAA;
+    font-size: 20px;
+    width: 100%;
+    background-color: #243AAA;
+
+}
+
+#horizontal{
+    width: 980px;
+    margin: 0px auto;
+    height: 50px;
+    background-color: inherit;
+    
+
+}
+
+horizontal{
+    width: 9800px;
+    margin-top:  auto;
+    height: 100px;
+    
+}
+    
+
+
+#logo{
+    float: inherit;
+}
+
+#menu{
+    float: right;
+    list-style: none;
+        background-color: inherit;
+
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    background-color: inherit;
+}
+
+#menu a:hover, #dropdownContent a:hover{
+    color: aliceblue;
+    background-color: inherit;
+
+}
+
+#menu li{
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: inherit;
+
+}
+
+#menu li:hover{
+    background-color: #66cdaa;
+        color: black;
+
+}
+
+#dropdownContent {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li:hover  #dropdownContent{
+    display: block;
+    background-color: #66cdaa;
+
+}
+
+#dropdownContent li{
+    background-color: #D9E4FC;
+    clear: both;
+    list-style: none;
+    z-index: 1;
+}
+
+
+
+#mainBody{
+    background-color: #E5F2FC;
+    color: midnightblue;
+    width: 980px;
+    margin: auto;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+#mainBody h1, #mainBody p{
+    margin: 10px;
+}
+
+#genInfo{
+    padding: 10px 10px 10px 10px;
+    overflow: auto;
+}
+
+#genInfo p{
+    margin: 10px 10px;
+}
+
+#genInfo h1{
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#portrait{
+    margin: ;
+    width: 25%;
+    float: left;
+}
+
+#addressInfo{
+    height: ;
+    width: 75%;
+    background-color: #E5F2FC;
+    float: left;
+    padding: 12px 25px;
+}
+
+#work{
+    float: right;
+}
+
+#work h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#realtorInfo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#getInTouchWrapper{
+    border-style: solid;
+    border-color: #5584E9;
+    width: 150px;
+    padding: 23px;
+    margin: auto;
+    text-align: center;
+}
+
+#feedback{
+    overflow: auto;
+    clear: both;
+}
+
+#awards h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#awards div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#awards img{
+    width: 40px;
+    float: left;
+}
+
+.indAward{
+    padding-top: 10px;
+    clear: both;
+}
+
+hr{
+    margin: 10px;
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+footer #left{
+    float: left;
+}
+
+footer #right{
+    float: right;
+}

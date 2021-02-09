@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+    <link type="text/css" rel="stylesheet" href="contactstyle.css">
+        
+    <title>Susan&Moe </title>
+</head>
+
+<body>
+<div id = "logo-image">
+    <a href="https://www.susanandmoe.com/" target="_blank"><img src="images/logo_susan.jpg" height="200" alt="logo" ></a></div>
+ 
+    <div id="header">
+     <nav id="horizontal">
+
+    
+    <ul id="menu">
+               
+<li><a href="home.html" id="home">Home</a></li>
+                
+<li><a href="listingindex.html">Listings</a>
+                   
+<ul id="dropdownContent">
+                       
+<li><a href="listing1.html">Listing 01</a></li>
+                        
+<li><a href="listing2.html">Listing 02</a></li>
+                       
+<li><a href="listing3.html">Listing 03</a></li>
+    </ul>
+</li>
+               
+    <li><a href="contactusform.html" id="contactUs">Contact</a></li>
+               
+    <li><a href="sitemap.html" id="siteMap">Site Map</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    
+    <main id="mainBody">
+        <div>
+            <h1>Contact Us</h1>
+            <p>Please feel free to contact us with any comments or questions you may have. <br>
+                By filling out the form we are better able to find listings to suit your wants.</p>
+        </div>
+        <hr>
+        <form action="mailto: susan@susanandmoe.com" method="post">
+            <fieldset name="customerInfo">
+                <legend>Your Information</legend>
+                <div class="cusInfoDivision">
+                    <div class="left">
+                        <label>Name: </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="name" id="name" placeholder="Your Name" maxlength="60">
+                    </div>
+                </div>
+                <div class="cusTelDivision">
+                    <div class="left">
+                        <label>Phone Number: </label>
+                    </div>
+                    <div class="right">
+                        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="###-###-####">
+                    </div>
+                </div>
+                <div class="cusEmailDivision">
+                    <div class="left">
+                        <label>Email Adress: </label>
+                    </div>
+                    <div class="right">
+                        <input type="email" name="emailAddress" id="emailAddress" placeholder="hpark109@my.centennialcollege.ca" maxlength="60">
+                    </div>
+                </div>
+            </fieldset>
+            <hr>
+            <fieldset name="lookingFor">
+                <Legend>House Requirements</Legend>
+                <div>
+                    <div class="left">
+                        <label>Type of Residence: </label>
+                    </div>
+                    <div class="right">
+                        <input type="checkbox" id="residence01" name="residence01" value="condo">
+                        <label for="residence01">Condo</label>
+                        <input type="checkbox" id="residence02" name="residence02" value="house">
+                        <label for="residence02">House</label>
+                        <input type="checkbox" id="residence03" name="residence03" value="townHouse">
+                        <label for="residence03">Town House</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="left">
+                        <label>City: </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" id="city" name="city" placeholder="City or Town">
+                    </div>
+                </div>
+                <div>
+                    <div class="left">
+                        <label>Minimum Price: </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" id="minPrice" name="minPrice" min="0" max="10000000" step="10000">
+                    </div>
+                </div>
+                <div>
+                    <div class="left">
+                        <label>Maximum Price: </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" id="maxPrice" name="maxPrice" min="0" max="1000000000" step="10000">
+                    </div>
+                </div>
+                <div>
+                    <div class="left">
+                        <label>Bedrooms: </label>
+                    </div>
+                    <div class="right">
+                        <input type="radio" name="bedrooms" id="one" value="1">
+                        <label for="one">1</label>
+                        <input type="radio" name="bedrooms" id="two" value="2">
+                        <label for="one">2</label>
+                        <input type="radio" name="bedrooms" id="three" value="3">
+                        <label for="one">3</label>
+                        <input type="radio" name="bedrooms" id="four" value="4">
+                        <label for="one">4</label>
+                        <input type="radio" name="bedrooms" id="five" value="5">
+                        <label for="one">5+</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="left">
+                        <label>Bathrooms: </label>
+                    </div>
+                    <div class="right">
+                        <input type="radio" name="bathrooms" id="one" value="1">
+                        <label for="one">1</label>
+                        <input type="radio" name="bathrooms" id="two" value="2">
+                        <label for="one">2</label>
+                        <input type="radio" name="bathrooms" id="three" value="3">
+                        <label for="one">3</label>
+                        <input type="radio" name="bathrooms" id="four" value="4">
+                        <label for="one">4+</label>
+                    </div>
+                </div>
+            </fieldset>
+            <hr>
+            <fieldset name="other">
+                <legend>Comments or Questions</legend>
+                <div class="left">
+                    <label>Comments: </label>
+                </div>
+                <div class="right">
+                    <textarea name="comments" id="comments" placeholder="Please Type Here..." cols="50" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <div id="buttons" class="mainSections">
+                <div id="submitButton" class="left">
+                    <button type="submit" tabindex="96"><b>Send Information </b></button>
+                </div>
+                <div id="resetButton" class="right">
+                    <button type="reset" tabindex="98"><b>Restart Contact Us Form</b></button>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <footer>
+                <h5 id="left">&copy;&nbsp;Copyright Hyekyeong Park (301148613) - COMP213 - Fall 2020 </h5>
+                <h5 id="right"><a href="index.html">Back to index Page</a></h5>
+            </footer>
+    </main>
+</body></html>
